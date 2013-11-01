@@ -1,6 +1,5 @@
 Miriam::Application.routes.draw do
   
-  mount Ckeditor::Engine => '/ckeditor'
   get "welcome/index"
   get "welcome/services"
   get "welcome/about"

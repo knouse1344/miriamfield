@@ -15,8 +15,6 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
-gem 'ckeditor', '4.0.6'
-
 gem 'protected_attributes'
 gem 'rails-observers'
 gem 'actionpack-page_caching'
