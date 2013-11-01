@@ -1,0 +1,60 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#indexpage {
+	padding-top: 120px;
+	
+	#letter {
+		margin-left: 250px;
+		width: 700px;
+		font-size: 1.1em;
+	}
+}	
+
+#aboutpage {
+	padding: 40px 0px 40px 200px;
+
+	#ab_info {
+		width: 700px;
+		font-size: 1.1em;
+	}
+}
+
+#servicepage {
+	padding-top: 80px;
+
+	#serv_desc {
+		width: 700px;
+		font-size: 1.1em;
+		margin-left: 250px;
+	}
+}
+
+#contactpage {
+	padding-top: 80px;
+	padding-left: 200px;
+
+	#cont_info {
+
+		#offices {
+			width: 500px;
+			height: 100px;
+
+			.office {
+				width: 200px;
+				float: left;
+			}
+		}
+	}
+}
+
+#resourcepage {
+	padding: 60px 0 40px 200px;
+
+	#res_info {
+		font-size: 1.1em;
+		width: 600px;
+	}
+}
