@@ -26,6 +26,42 @@ RailsAdmin.config do |config|
     end
   end
 
+  config.model About do
+    label_plural "About Page"
+    edit do
+      # For RailsAdmin >= 0.5.0
+      field :message, :ck_editor
+      # For RailsAdmin < 0.5.0
+      # field :description do
+      #   ckeditor true
+      # end
+    end
+  end
+
+  config.model Service do
+    label_plural "Services Page"
+    edit do
+      # For RailsAdmin >= 0.5.0
+      field :message, :ck_editor
+      # For RailsAdmin < 0.5.0
+      # field :description do
+      #   ckeditor true
+      # end
+    end
+  end
+
+  config.model Contact do
+    label_plural "Contact Page"
+    edit do
+      # For RailsAdmin >= 0.5.0
+      field :message, :ck_editor
+      # For RailsAdmin < 0.5.0
+      # field :description do
+      #   ckeditor true
+      # end
+    end
+  end
+
   # If you want to track changes on your models:
   # config.audit_with :history, 'User'
 
@@ -42,7 +78,7 @@ RailsAdmin.config do |config|
   # config.excluded_models = [User]
 
   # Include specific models (exclude the others):
-  config.included_models = [Home]
+  config.included_models = [Home, About, Service, Contact]
 
   # Label methods for model instances:
   # config.label_methods << :description # Default is [:name, :title]
