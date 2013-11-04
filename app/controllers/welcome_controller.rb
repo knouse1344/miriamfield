@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
   def index
-    @message=Home.find(1)
+    @message=Home.find(1).message
   end
 
   def about

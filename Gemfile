@@ -21,6 +21,8 @@ gem 'actionpack-page_caching'
 
 gem 'rails_admin'
 
+gem 'ckeditor'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

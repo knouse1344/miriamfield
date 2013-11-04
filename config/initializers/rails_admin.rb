@@ -14,6 +14,18 @@ RailsAdmin.config do |config|
   # RailsAdmin may need a way to know who the current user is]
   config.current_user_method { current_user } # auto-generated
 
+  config.model Home do
+    label_plural "Home Page"
+    edit do
+      # For RailsAdmin >= 0.5.0
+      field :message, :ck_editor
+      # For RailsAdmin < 0.5.0
+      # field :description do
+      #   ckeditor true
+      # end
+    end
+  end
+
   # If you want to track changes on your models:
   # config.audit_with :history, 'User'
 
@@ -27,10 +39,10 @@ RailsAdmin.config do |config|
   # config.default_items_per_page = 20
 
   # Exclude specific models (keep the others):
-  # config.excluded_models = []
+  # config.excluded_models = [User]
 
   # Include specific models (exclude the others):
-  # config.included_models = []
+  config.included_models = [Home]
 
   # Label methods for model instances:
   # config.label_methods << :description # Default is [:name, :title]
