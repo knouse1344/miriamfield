@@ -30,6 +30,10 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 
+	a {
+		text-decoration: none;
+	}
+
 	#navigation {
 		width: 626px;
 		height: 110px;
@@ -40,6 +44,7 @@ body {
 		#logo {
 			font-family: 'Cinzel', serif;
 			font-size: 2em;
+			color: #111;
 			font-weight: 700;
 			text-transform: uppercase;
 			letter-spacing: 5px;
@@ -66,13 +71,26 @@ body {
 		}
 
 		.block {
+			color: #333;
 			width: 120px;
 			height: 70px;
 			text-align: center;
 			display: inline-block;
 			padding-top: 60px;
-			background: #eee;
+			background: url('/assets/link.jpg') 0 0;
 			margin-left:1px;
+			transition-property:background;
+			transition-duration: .5s;
+			-moz-transition-property: background; /* Firefox 4 */
+			-moz-transition-duration: .5s;
+			-webkit-transition-property:background; /* Safari and Chrome */
+			-webkit-transition-duration: .5s;
+			-o-transition-property:background; /* Opera */
+			-o-transition-duration: .5s;
+		}
+
+		.block:hover {
+			background: url('/assets/link.jpg') 0 -70px;
 		}
 	}
 
