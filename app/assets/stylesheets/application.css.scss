@@ -35,7 +35,8 @@ body {
 	}
 
 	#navigation {
-		width: 626px;
+		width: 620px;
+		border: 1px solid #999;
 		height: 110px;
 		background: #fff;
 		margin-top: 70px;
@@ -60,9 +61,9 @@ body {
 	}
 	
 	#navlinks {
-		width: 374px;
+		width: 380px;
 		height: 130px;
-		margin-top:-130px;
+		margin-top:-132px;
 		margin-right: -4px;
 		float: right;
 
@@ -71,7 +72,12 @@ body {
 		}
 
 		.block {
-			color: #333;
+			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 1.1em;
+			border: 1px solid #999;
+			color: #555;
 			width: 120px;
 			height: 70px;
 			text-align: center;
@@ -95,6 +101,7 @@ body {
 	}
 
 	#content {
+		border: 1px solid #999;
 		width: 1000px;
 		min-height: 600px;
 		background: #fff;
