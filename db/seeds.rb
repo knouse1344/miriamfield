@@ -20,20 +20,9 @@ About.create([{message: "I am a licensed clinical social worker having graduated
 	Conflicts at home, school, or work</br>
 	Self Esteem</br>
 	Bereavement, loss, and other life transitions</br>
-	Parenting
-	<h2> How We Can Work Together </h2>
-	We will establish a non-judgmental relationship that we can utilize to address conflicts and difficult emotions that arise in life and in treatment.  Our alliance can be thought of as a structure through which you become increasingly able to understand your innermost self.  Therapeutic change is achieved in several ways including:
-	<ul>
-		<li>Feeling you are not alone</li>
-		<li>Viewing yourself and others from a new perspective</li>
-		<li>Understanding why you are stuck</li>
-		<li>Feeling understood</li>
-		<li>Becoming less hard on yourself</li>
-		<li>Resolving conflicts</li>
-	</ul>"}])
+	Parenting"}])
 
-Service.create([{message: "<h2> Services </h2>
-		I offer psychotherapy and psychoanalysis to adolescents and adults.  I work with individuals and couples.  Our work is confidential and the highest standards of privacy are maintained.
+Service.create([{message: "I offer psychotherapy and psychoanalysis to adolescents and adults.  I work with individuals and couples.  Our work is confidential and the highest standards of privacy are maintained.
 		<h3> Fees </h3>
 		Fees for services are individualized and based on a number of factors that can be considered.  You may call me to discuss fees before we begin.
 		<h3> Insurance </h3>
