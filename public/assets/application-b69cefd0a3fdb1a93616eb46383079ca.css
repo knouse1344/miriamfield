@@ -47,6 +47,7 @@ body {
     #container #navigation #classify {
       font-size: 1.1em;
       margin-left: 15px;
+      margin-top: 10px;
       color: #666; }
   #container #navlinks {
     width: 380px;
