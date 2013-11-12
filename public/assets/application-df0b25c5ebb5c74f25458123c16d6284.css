@@ -1,0 +1,160 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  background: #bbb; }
+
+body {
+  overflow-y: scroll; }
+
+#container {
+  width: 1000px;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto; }
+  #container a {
+    text-decoration: none; }
+  #container #navigation {
+    width: 620px;
+    border: 1px solid #999;
+    height: 110px;
+    background: #fff;
+    margin-top: 70px;
+    padding-top: 20px; }
+    #container #navigation #logo {
+      font-family: 'Cinzel', serif;
+      font-size: 2em;
+      color: #111;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin-left: 15px;
+      font-weight: 400; }
+    #container #navigation #classify {
+      font-size: 1.1em;
+      margin-left: 15px;
+      color: #666; }
+  #container #navlinks {
+    width: 380px;
+    height: 130px;
+    margin-top: -132px;
+    margin-right: -4px;
+    float: right; }
+    #container #navlinks a {
+      width: 80px; }
+    #container #navlinks .block {
+      text-transform: uppercase;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 1.1em;
+      border: 1px solid #999;
+      color: #555;
+      width: 120px;
+      height: 70px;
+      text-align: center;
+      display: inline-block;
+      padding-top: 60px;
+      background: url("/assets/link.jpg") 0 0;
+      margin-left: 1px;
+      transition-property: background;
+      transition-duration: .5s;
+      -moz-transition-property: background;
+      /* Firefox 4 */
+      -moz-transition-duration: .5s;
+      -webkit-transition-property: background;
+      /* Safari and Chrome */
+      -webkit-transition-duration: .5s;
+      -o-transition-property: background;
+      /* Opera */
+      -o-transition-duration: .5s; }
+    #container #navlinks .block:hover {
+      background: url("/assets/link.jpg") 0 -70px; }
+  #container #content {
+    border: 1px solid #999;
+    width: 1000px;
+    min-height: 600px;
+    background: #fff;
+    margin-top: 40px; }
+
+#footer {
+  width: 1000px;
+  margin-top: 20px;
+  border-top: 1px solid #999;
+  color: #666;
+  font-size: .8em;
+  text-align: center;
+  padding-top: 4px; }
+#profile {
+  width: 250px;
+  margin-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .85em;
+  color: #444;
+  float: left; }
+  #profile img {
+    width: 250px; }
+
+#title {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #333;
+  margin-left: 325px; }
+
+#indexpage {
+  padding-top: 20px; }
+  #indexpage #letter {
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin-left: 325px;
+    width: 600px;
+    font-size: 1em; }
+
+#aboutpage {
+  padding: 20px 0px 40px 0px; }
+  #aboutpage #ab_info {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    margin-top: 40px;
+    margin-left: 325px;
+    width: 600px;
+    font-size: 1em; }
+
+#servicepage {
+  padding-top: 20px; }
+  #servicepage #serv_desc {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    margin-left: 325px;
+    width: 600px;
+    margin-top: 40px;
+    font-size: 1em; }
+
+#contactpage {
+  padding-top: 20px; }
+  #contactpage #cont_info {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    margin-top: 80px;
+    margin-left: 350px; }
+    #contactpage #cont_info #offices {
+      width: 500px;
+      height: 100px; }
+      #contactpage #cont_info #offices .office {
+        width: 200px;
+        float: left; }
