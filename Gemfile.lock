@@ -130,6 +130,8 @@ GEM
     pg (1.4.2)
     psych (4.0.4)
       stringio
+    puma (5.6.4)
+      nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
     rack-test (2.0.2)
@@ -232,6 +234,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   pg
+  puma
   rails (= 6.1.4)
   rails-observers
   rails_12factor
