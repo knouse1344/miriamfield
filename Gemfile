@@ -1,21 +1,25 @@
 source 'https://rubygems.org'
 
+ruby '3.1.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', "6.1.4"
 gem 'rails_12factor', group: :production
 
 gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails'
+
+gem 'activemodel', '6.1.4'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails'
 
-gem 'protected_attributes'
+# gem 'protected_attributes'
 gem 'rails-observers'
 gem 'actionpack-page_caching'
 
