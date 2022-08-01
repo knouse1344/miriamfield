@@ -1,4 +1,4 @@
 class Home < ActiveRecord::Base
-	attr_accessible :message
+	attr_accessor :message
 
 end

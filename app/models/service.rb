@@ -1,3 +1,3 @@
 class Service < ActiveRecord::Base
-	attr_accessible :message
+	attr_accessor :message
 end
